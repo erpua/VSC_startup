@@ -4,7 +4,6 @@
 
 - Debugger for Chrome
 - ESLint
-- Hig
 - Highlight Matching Tag
 - html tag wrapper
 - HTMLHint
@@ -13,7 +12,7 @@
 - lit-html
 - LitElement and Polymer v2/v3 Snippets
 - LitElement Snippet
-- LiveServer
+- Live Server
 - Path Intellisense
 - Prettier - Code formatter
 - Template Literal Editor
