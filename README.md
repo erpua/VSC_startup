@@ -24,6 +24,7 @@
 // FOR THE PROJECT.    JSON: 
 
 {
+ "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "files.autoSave": "onWindowChange",
   "window.zoomLevel": 0,
   "emmet.triggerExpansionOnTab": true,
