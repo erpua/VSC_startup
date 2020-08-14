@@ -52,3 +52,65 @@
   "prettier.trailingComma": "all",
   "prettier.singleQuote": true,
 }
+
+
+
+// SECOND OPTION INCLUDING PRETTIER EXTENSION AND .prettierrc file:
+
+ EXTENSION:
+
+{
+  "files.autoSave": "onWindowChange",
+  "window.zoomLevel": 0,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.renderWhitespace": "all",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.detectIndentation": false,
+  "editor.folding": true,
+  "editor.glyphMargin": false,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "prettier.quoteProps": "consistent",
+  "prettier.singleQuote": true
+}
+
+/*  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }, */
+
+
+.prettierrc:
+
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "proseWrap": "always"
+}
