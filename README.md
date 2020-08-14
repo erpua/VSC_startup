@@ -55,9 +55,19 @@
 
 
 
-// SECOND OPTION INCLUDING PRETTIER EXTENSION AND .prettierrc file(!IN THE PROJECT !NOT GLOBALLY)
+// 2-nd OPTION INCLUDING PRETTIER EXTENSION AND .prettierrc file(!IN THE PROJECT !NOT GLOBALLY)
 
- EXTENSION:
+SETTINGS:
+   search: Quote =>
+      Editor: Auto Closing OverType: auto;
+      Editor: Auto Closing Quotes: languageDefined
+      JavaScript Preference: Quote Style: single;
+      TypeScript Preference: Quote Style: single;
+      Prettier: JSX Single Quote: checked to Use Single ...
+      Prettier: Quote Props: consistent;
+      Prettier: Single Quote: checked to If true ...
+
+ EXTENSION settings:
 
 {
   "files.autoSave": "onWindowChange",
@@ -100,7 +110,7 @@
   }, */
 
 
-.prettierrc:
+.prettierrc file settings:
 
 {
   "printWidth": 80,
