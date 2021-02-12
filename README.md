@@ -19,8 +19,9 @@
 - Terminal
 - Trailing Spaces
 
-//WARNING: the path with double backslash => during downloading it converts to
-ONE ONLY
+//WARNING: the "terminal.integrated.shell.windows": "C:\\Program
+Files\\Git\\bin\\bash.exe", with double backslash => during downloading it
+converts to !ONE ONLY
 
 { "editor.codeActionsOnSave": { "source.fixAll": true },
 "terminal.enableAppInsights": true, "terminal.integrated.shell.windows":
@@ -66,3 +67,12 @@ false, "editor.folding": true, "editor.glyphMargin": false,
 "editor.defaultFormatter": "esbenp.prettier-vscode" }, "editor.wordWrapColumn":
 100, "prettier.trailingComma": "all", "prettier.singleQuote": true,
 "files.associations": {}, "editor.codeActionsOnSave": null }
+
+//FOR FORMATTING WITH PRETTIER => additional .prettierrc => { "printWidth": 80,
+"tabWidth": 2, "useTabs": false, "semi": true, "singleQuote": true,
+"trailingComma": "all", "bracketSpacing": true, "jsxBracketSameLine": false,
+"arrowParens": "avoid", "proseWrap": "always" }
+
+//ALSO configurations in Settings JSON VSCode => { "editor.defaultFormatter":
+"esbenp.prettier-vscode", "[javascript]": { "editor.defaultFormatter":
+"esbenp.prettier-vscode" }, }
