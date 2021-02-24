@@ -18,6 +18,10 @@
 - Template Literal Editor
 - Terminal
 - Trailing Spaces
+- Formatting Toggle
+- Babel JavaScript
+- ES7 React/Redux...
+- Simple React Snippets
 
 //WARNING: the "terminal.integrated.shell.windows": "C:\\Program
 Files\\Git\\bin\\bash.exe", with double backslash => during downloading it
